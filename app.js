@@ -4,7 +4,7 @@ document.getElementById('search-button').addEventListener('click', function() {
 });
 
 function searchGifs(query) {
-    const apiKey = 'YOUR_GIPHY_API_KEY'; // Replace with your Giphy API Key
+    const apiKey = 'p8K8Ka7ffqI5sjl0Y2J1Ljkj2oFRJQll'; // Replace with your Giphy API Key
     const url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${query}&limit=10&rating=g`;
 
     fetch(url)
